@@ -1,4 +1,4 @@
-#DESeq2差异分析
+#DESeq2
 #source("https://bioconductor.org/biocLite.R")
 #biocLite("DESeq2")
 #biocLite("tximport")

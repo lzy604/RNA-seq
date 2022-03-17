@@ -31,13 +31,13 @@ Use the following commands to install Minicoda3：
 wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh
 ```
-#### create an isolated environment for RNA-seq
+#### Create an isolated environment for RNA-seq
 ``` bash
 conda create -n rna-seq
 conda activate rna-seq
 ``` 
 
-#### install tools
+#### Install tools
 Tools needed for this analysis are: R, samtools, FastQC, Trim Galore, STAR, RSeQC, stringtie, gffcompare, htseq-count. 
 ``` bash
 conda config --add channels bioconda

@@ -12,6 +12,12 @@ This pipeline performs the following tasks:
 - Visualization(R)
 - Running the pepline 
 
+## RNA-seq Data Standards
+1. A bulk RNA-seq experiment is an RNA-seq assay in which the average library insert size is 200 base pairs.
+2. Experiments should have two or more replicates. Assays performed using EN-TEx samples may be exempted due to limited availability of experimental material.
+3. Each replicate should have 30 million aligned reads, although older projects aimed for 20 million reads. Best practices for ENCODE2 RNA-seq experiments have been outlined here.
+4. Replicate concordance: the gene level quantification should have a Spearman correlation of >0.9 between isogenic replicates and >0.8 between anisogenic replicates (i.e. replicates from different donors).
+
 ## System requirements
 - Linux/Unix
 - Python

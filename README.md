@@ -10,7 +10,7 @@ This pipeline performs the following tasks:
 - RPKMs and TPM (using edgeR or [StringTie](https://ccb.jhu.edu/software/stringtie/))
 - Differential expression analysis for standard designs ([DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html))
 - Visualization(R)
-- Running the pepline 
+- Running the pipeline 
 
 ## RNA-seq Data Standards
 1. A bulk RNA-seq experiment is an RNA-seq assay in which the average library insert size is 200 base pairs.
